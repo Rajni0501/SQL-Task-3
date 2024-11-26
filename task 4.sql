@@ -1,0 +1,1 @@
+select avg(quantitysold),extract(month from saledate) from sales group by extract(month from saledate);
